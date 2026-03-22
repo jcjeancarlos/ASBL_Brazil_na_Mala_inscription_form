@@ -9,7 +9,7 @@ document.querySelector(".form").addEventListener("submit", async function(e) {
         langue: document.getElementById("langue").value
     };
 
-    const response = await fetch("https://script.google.com/macros/s/AKfycbwGJ2g2YfOspoxHBEkT0_bLz3QqTQAKaAVkjy12ZKXAuo9llXZ7IhGVF_gtHbHF5RnH/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbyIX-mlm07TSGH1iXSA7-BHv8CsB0s-8O820qss5n8hnVjtMycWW1f-fhHC9deIPS9j/exec", {
         method: "POST",
         body: JSON.stringify(data)
     });
